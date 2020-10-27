@@ -1,0 +1,35 @@
+{
+  "name": "mk",
+  "version": "1.0.0",
+  "description": "Legal technologies",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "style": "sass --watch sass/style.scss sass/style.css",
+    "dev": "npx webpack --mode development",
+    "server": "webpack-dev-server --open --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KarinaMasalova/MK.git"
+  },
+  "author": "Karina Masalova",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KarinaMasalova/MK/issues"
+  },
+  "homepage": "https://github.com/KarinaMasalova/MK#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "css-loader": "^4.3.0",
+    "file-loader": "^6.1.1",
+    "html-webpack-plugin": "^4.5.0",
+    "mini-css-extract-plugin": "^1.0.0",
+    "sass": "^1.27.0",
+    "sass-loader": "^10.0.3",
+    "style-loader": "^2.0.0",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  }
+}

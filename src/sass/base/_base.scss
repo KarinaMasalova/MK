@@ -1,0 +1,19 @@
+html {
+    font-size: 10px;
+}
+
+h1 {
+    @include font($family: 'Commissioner', $size: 4.0rem, $height: 5.0rem, $letter: 0.01em);
+}
+
+h2 {
+    @include font($family: 'Commissioner', $size: 2.8rem, $height: 4.0rem, $letter: 0.03em);
+}
+
+h4 {
+    @include font($family: 'Commissioner', $size: 2.6rem, $height: 4.5rem);
+}
+
+h5 {
+    @include font($family: 'Commissioner', $size: 2.0rem, $height: 3.0rem);
+}

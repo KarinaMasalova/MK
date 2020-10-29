@@ -1,9 +1,10 @@
-@mixin font($family, $size, $height, $weight, $style: normal) {
-    family: $family, 'Verdana', sans-serif;
+@mixin font($family, $size, $height, $weight: normal, $style: normal, $letter: 0) {
+    font-family: $family, 'Verdana', sans-serif;
     font-size: $size;
     font-weight: $weight;
     font-style: $style;
     line-height: $height;
+    letter-spacing: $letter;
 }
 
 @mixin columns($width) {

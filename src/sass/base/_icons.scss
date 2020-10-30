@@ -1,4 +1,37 @@
 .ico {
     cursor: pointer;
     display: inline-block;
+    background-repeat: no-repeat;
+    align-content: center;
+}
+
+.ico-eye {
+    width: 35px;
+    height: 35px;
+    background-image: url(../img/icons/header/eye.svg);
+}
+
+.ico-a1, .ico-viber, .ico-whatsapp, .ico-mts {
+    width: 20px;
+    height: 20px;
+    vertical-align: top;
+}
+
+.ico-a1 {
+    background-image: url(../img/icons/header/a1.svg);
+    margin: 0 10px 0 15px;
+}
+
+.ico-viber {
+    background-image: url(../img/icons/social-networks/viber.svg);
+}
+
+.ico-whatsapp {
+    background-image: url(../img/icons/social-networks/whatsapp.svg);
+    margin: 0 14px 0 10px;
+}
+
+.ico-mts {
+    background-image: url(../img/icons/header/mts.svg);
+    margin: 0 12px 0 30px;
 }

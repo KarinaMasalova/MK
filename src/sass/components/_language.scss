@@ -1,0 +1,17 @@
+.language {
+    padding-top: 5px;
+}
+
+.language__lang {
+    @include font($family: 'Source Sans Pro', $size: 1.6rem, $weight: 300, $height: 2.0rem);
+    color: $color-text;
+    padding-right: 13px;
+}
+
+.language__kind {
+    outline: none;
+    border: none;
+    background-color: $color-light;
+    color: $color-text;
+    @include font($family: 'Source Sans Pro', $size: 1.6rem, $height: 2.0rem);
+}

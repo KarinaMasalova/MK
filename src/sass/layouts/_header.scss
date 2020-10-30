@@ -1,0 +1,40 @@
+.header {
+    background-color: $color-light;
+    padding: 10px 0 23px;
+}
+
+.header__line-1 {
+    display: flex;
+    padding-bottom: 25px;
+}
+
+.line-1__left {
+    width: 48.5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.line-1__right {
+    width: 51.5%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.telephone-numbers {
+    padding-top: 5px;
+}
+
+.a1-numb,
+.mts-numb {
+    text-decoration: none;
+    color: $color-half-dark;
+    @include font($family: 'Commissioner', $size: 1.4rem, $height: 2.0rem, $letter: 0.03em);
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.header__line-2 {
+    display: flex;
+    justify-content: space-between;
+}

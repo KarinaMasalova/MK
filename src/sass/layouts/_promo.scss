@@ -1,0 +1,19 @@
+.promo {
+    background-image: url(../img/backgrounds/promo/bg-1.png);
+    background-position: center 10%;
+    background-repeat: no-repeat;
+    padding: 160px 0 250px;
+}
+
+.promo__title {
+    margin: 0;
+    max-width: 470px;
+}
+
+.promo__text {
+    margin: 0;
+    padding: 20px 0 50px;
+    max-width: 470px;
+    color: $color-text;
+    @include font($family: 'Lato', $size: 1.5rem, $weight: 300, $height: 2.5rem);
+}

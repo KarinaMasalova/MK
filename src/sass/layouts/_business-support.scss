@@ -1,0 +1,20 @@
+.business-support {
+    padding-top: 294px;
+}
+
+.business-support__wrapper {
+    background-color: $color-light;
+    display: flex;
+}
+
+
+.business-support__content {
+    padding: 50px 60px 30px 70px;
+}
+
+.business-support__text {
+    color: $color-text;
+    max-width: 470px;
+    margin: 0 0 30px 0;
+    @include font($family: 'Lato', $size: 1.5rem, $height: 2.5rem, $weight: 300);
+}

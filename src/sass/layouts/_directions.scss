@@ -1,0 +1,67 @@
+.directions {
+    padding: 100px 0;
+}
+
+.direction {
+    background-color: $color-light;
+    box-shadow: 0px 0px 8px 3px rgba(0,0,0,0.05);
+    padding: 15px 15px 25px 40px;
+    margin-bottom: 30px;
+}
+
+.direction__description {
+    display: flex;
+    justify-content: space-between;
+}
+
+.direction__title {
+    max-width: 180px;
+    margin: 0 0 35px 0;
+    color: $color-headlines;
+}
+
+.direction__img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 1px solid $color-pagination;
+    background-repeat: no-repeat;
+    background-position: center;
+    &_debt {
+        background-image: url(../img/icons/activity-direction/icon-1.svg);
+    }
+    &_reorganization {
+        background-image: url(../img/icons/activity-direction/icon-2.svg);
+    }
+    &_sale {
+        background-image: url(../img/icons/activity-direction/icon-3.svg);
+    }
+    &_consultations {
+        background-image: url(../img/icons/activity-direction/icon-4.svg);
+    }
+    &_liquidation {
+        background-image: url(../img/icons/activity-direction/icon-5.svg);
+    }
+    &_contracts {
+        background-image: url(../img/icons/activity-direction/icon-6.svg);
+    }
+    &_registration {
+        background-image: url(../img/icons/activity-direction/icon-7.svg);
+    }
+    &_outsourcing {
+        background-image: url(../img/icons/activity-direction/icon-8.svg);
+    }
+    &_certification {
+        background-image: url(../img/icons/activity-direction/icon-9.svg);
+    }
+}
+
+.direction__detailed {
+    @include font($family: 'Lato', $size: 1.2rem, $height:2.0rem, $weight: 600, $letter: 0.02em);
+    text-transform: uppercase;
+    text-decoration: none;
+    color: $color-half-dark;
+    &:hover {
+        text-decoration: underline;
+    }
+}

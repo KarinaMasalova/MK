@@ -2,6 +2,10 @@ html {
     font-size: 10px;
 }
 
+body {
+    background-color: $color-bg;
+}
+
 h1 {
     @include font($family: 'Commissioner', $size: 4.0rem, $height: 5.0rem, $letter: 0.01em);
 }

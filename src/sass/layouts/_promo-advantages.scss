@@ -1,0 +1,42 @@
+.promo-advantages {
+    position: absolute;
+    top: 75%;
+    left: 19.5%;
+    width: 1170px;
+}
+
+.promo-advantage {
+    margin-left: 1px;
+    background-color: $color-light;
+    padding: 50px 40px 40px;
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.promo-advantage__img {
+    margin: 0 auto 25px;
+    width: 120px;
+    height: 120px;
+    border: 3px solid $color-pagination;
+    @extend %icon-border;
+    &_protection {
+        background-image: url(../img/icons/promo-advantages/icon-1.svg);
+    }
+    &_reputation {
+        background-image: url(../img/icons/promo-advantages/icon-2.svg);
+    }
+    &_result {
+        background-image: url(../img/icons/promo-advantages/icon-3.svg);
+    }
+    &_privacy {
+        background-image: url(../img/icons/promo-advantages/icon-4.svg);
+    }
+}
+
+.promo-advantage__description {
+    margin: 0;
+    max-width: 180px;
+    text-align: center;
+    color: $color-nav-items;
+    @include font($family: 'Lato', $size: 1.6rem, $height: 2.5rem, $letter: 0.02em);
+}

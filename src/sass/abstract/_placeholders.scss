@@ -1,3 +1,10 @@
 %transition {
     transition: all .3s ease-out;
 }
+
+%icon-border {
+    border-radius: 50%;
+    border: 1px solid $color-pagination;
+    background-repeat: no-repeat;
+    background-position: center;
+}
